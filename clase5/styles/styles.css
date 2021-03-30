@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    background-color: darkgray;
+    margin: 0;
+    color: midnightblue;
+    font-size: 20px;
+}
+header {
+    margin: 0;
+    text-align: center;
+    background-color: lightgrey;
+}
+h2 {
+    color: firebrick;
+    margin: 40px 0 0 0;
+    background-color: darkgray;
+    width: 70%;
+}
+footer {
+    background-color: midnightblue;
+    margin: 0;
+    text-align: center;
+}
