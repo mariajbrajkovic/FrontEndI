@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 16px;
+}
+.banner {
+    background-image: url('/clase6/assets/lemon-pie2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 343px;
+    color: white;
+}
+h1 {
+    padding: 200px 10px 0 10px;
+}
+.intro {
+    padding: 0 10px 0 10px;
+}
+h3 {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+}
+.fa-list-ol {
+    color: black;
+}
+h2 {
+    display: inline;
+}
