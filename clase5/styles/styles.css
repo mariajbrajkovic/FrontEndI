@@ -1,12 +1,14 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h1, h2 {
+    background-color: darkgray;
+    font-size: 20px;
+}
 h1 {
     text-align: center;
-    background-color: darkgray;
     margin: 0px;
     color: midnightblue;
-    font-size: 20px;
     line-height: 50px;
 }
 .batman {
@@ -20,9 +22,7 @@ header {
 h2 {
     color: firebrick;
     margin: 40px 0 0 0;
-    background-color: darkgray;
     width: 70%;
-    font-size: 20px;
 }
 footer {
     background-color: midnightblue;
