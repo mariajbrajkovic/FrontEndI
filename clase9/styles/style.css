@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box_intro {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background-color: #1CD1B0;
+}
+
+.box_intro_text {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 20px;
+    top: 8px;
+    bottom: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14 px;
+    color: #000000;
+}
+
+.box_card_super {
+    position: sticky;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+}
+
+.box_card_super_text {
+    font-size: 35px;
+    position: relative;
+    color: white;
+    left: 20px;
+    top: 10px;
+    bottom: 0px;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+
+.card-superheroe {
+    position: relative;
+    background-color: #F3F3F3;
+    margin: 5%;
+    left: 25%;
+    bottom: 40px;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 325px;
+    height: 580px;
+}
+
+.card-superheroe-fondo-personaje {
+    background-image: url(../assets/img/bg-batman.jpg);
+    background-position: center;
+    background-size: 180%;
+    border-radius: 50px 50px 0px 0px;
+    width: 325px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.card-superheroe-foto-perfil-personaje {
+    background-image: url(../assets/img/batman.jpg);
+    background-position: center;
+    background-position-x: -100px;
+    background-position-y: 0px;
+    background-size: 240%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 70px;
+    left: 105px;
+    z-index: 3;
+
+}
+
+.card-superheroe-titulo {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+
+.card-superheroe-descrp {
+    text-align: justify;
+    padding: 20px;
+    position: relative;
+    bottom: 120px;
+
+}
+
+.card-superheroe-like {
+    color: #CC2424;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 4;
+
+
+}
+
+.card-superheroe-boton {
+    background-color: #00669F;
+    width: 130px;
+    height: 47px;
+    padding: 15px 10px 15px 35px;
+    color: #F3F3F3;
+    border-radius: 3px;
+    border: none 20px #00669F;
+    line-height: 20px;
+    position: absolute;
+    bottom: 4%;
+    left: 97.5px;
+
+}
+
+.box_footer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 100px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box_footer_text {
+    color: #FFF9F9;
+    text-align: center;
+    position: relative;
+    top: 17px;
+}
+
+.box_footer_logoGithub {
+    width: 160px;
+    height: 44px;
+    background-image: url(../assets/img/github.png);
+    background-size: 100%;
+    margin: 4px;
+    position: absolute;
+    bottom: 2px;
+    right: 50px;
+}
+
+.add_super_boton {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #00669F;
+    color: #00669F;
+    position: fixed;
+    bottom: 100px;
+    right: 60px;
+}
+
+.add_super_boton_text {
+    color: #FFF;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 42px;
+}
+
+.card-superheroe-fondo-personaje_MM {
+    background-image: url(../assets/img/bg-wonderw.jpg);
+    background-position: center;
+    background-size: 180%;
+    border-radius: 50px 50px 0px 0px;
+    width: 325px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.card-superheroe-foto-perfil-personaje_MM {
+    background-image: url(../assets/img/wonderw.jpg);
+    background-position: center;
+    background-position-x: -70px;
+    background-position-y: -10px;
+    background-size: 210%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 70px;
+    left: 105px;
+    z-index: 3;
+
+}
+
+.card-superheroe-fondo-personaje_S {
+    background-image: url(../assets/img/bg-superman.jpg);
+    background-position: center;
+    background-size: 180%;
+    border-radius: 50px 50px 0px 0px;
+    width: 325px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.card-superheroe-foto-perfil-personaje_S {
+    background-image: url(../assets/img/superman.jpg);
+    background-position: center;
+    background-position-x: -55px;
+    background-position-y: -15px;
+    background-size: 210%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 70px;
+    left: 105px;
+    z-index: 3;
+
+}
