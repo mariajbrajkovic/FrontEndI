@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
-
 .box_intro {
     position: relative;
     width: 100%;
@@ -11,7 +12,6 @@
     top: 0px;
     background-color: #1CD1B0;
 }
-
 .box_intro_text {
     width: 100%;
     height: auto;
@@ -24,7 +24,6 @@
     font-size: 14 px;
     color: #000000;
 }
-
 .box_card_super {
     position: sticky;
     background-color: #00669F;
@@ -35,7 +34,6 @@
     top: 0px;
     z-index: 10;
 }
-
 .box_card_super_text {
     font-size: 35px;
     position: relative;
@@ -47,190 +45,98 @@
     font-weight: normal;
 
 }
-
-
-.card-superheroe {
-    position: relative;
-    background-color: #F3F3F3;
-    margin: 5%;
-    left: 25%;
-    bottom: 40px;
-    border-radius: 50px 50px 0px 0px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 325px;
-    height: 580px;
+.contenedor {
+    height: 100%;
+    align-items: center;
 }
-
-.card-superheroe-fondo-personaje {
-    background-image: url(../assets/img/bg-batman.jpg);
-    background-position: center;
-    background-size: 180%;
-    border-radius: 50px 50px 0px 0px;
-    width: 325px;
-    height: 200px;
-    position: relative;
-    z-index: 1;
-}
-
-.card-superheroe-foto-perfil-personaje {
-    background-image: url(../assets/img/batman.jpg);
-    background-position: center;
-    background-position-x: -100px;
-    background-position-y: 0px;
-    background-size: 240%;
-    text-align: center;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    position: relative;
-    bottom: 70px;
-    left: 105px;
-    z-index: 3;
-
-}
-
-.card-superheroe-titulo {
-    font-size: 30px;
+.login {
+    position: absolute;
+    width: 195px;
+    height: 72px;
+    left: 410px;
+    top: 250px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
     text-align: center;
-    position: relative;
-    bottom: 80px;
+    color: #333333;
 }
-
-.card-superheroe-descrp {
-    text-align: justify;
-    padding: 20px;
-    position: relative;
-    bottom: 120px;
-
-}
-
-.card-superheroe-like {
-    color: #CC2424;
-    font-size: 40px;
+.nya, .correo, .pais, .password {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 4;
-
-
+    width: 620px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    box-sizing: border-box;
 }
-
-.card-superheroe-boton {
-    background-color: #00669F;
-    width: 130px;
-    height: 47px;
-    padding: 15px 10px 15px 35px;
-    color: #F3F3F3;
-    border-radius: 3px;
-    border: none 20px #00669F;
-    line-height: 20px;
+.nya {
+    left: 411.12px;
+    top: 350px;
+}
+.correo {
+    left: 410px;
+    top: 450px;
+}
+.password {
+    left: 410px;
+    top: 550px;
+}
+.pais {
+    left: 410px;
+    top: 650px;
+}
+.enter, .reset {
     position: absolute;
-    bottom: 4%;
-    left: 97.5px;
-
+    width: 300px;
+    height: 53.79px;
+    border-radius: 23.011px;
+    font-family: 'Karla', sans-serif;
 }
-
+.enter {
+    left: 730px;
+    top: 730px;
+    background: #1CD1B0;
+    font-size: 24px;
+}
+.reset {
+    left: 410px;
+    top: 730px;
+    background: #888888;
+    color: white;
+    font-size: 24px;
+}
+.text1 {
+    position: absolute;
+    width: 356px;
+    height: 28px;
+    left: 545px;
+    top: 780px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.4769px;
+    line-height: 28px;
+    text-align: center;
+}
+.text1 {
+    color: #00669F;
+    display: inline;
+}
+.text2 {
+    color: black;
+    display: inline;
+}
 .box_footer {
     position: relative;
     width: 100%;
     height: 50px;
-    top: 100px;
+    top: 800px;
     background-color: #00669F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 .box_footer_text {
     color: #FFF9F9;
     text-align: center;
     position: relative;
     top: 17px;
-}
-
-.box_footer_logoGithub {
-    width: 160px;
-    height: 44px;
-    background-image: url(../assets/img/github.png);
-    background-size: 100%;
-    margin: 4px;
-    position: absolute;
-    bottom: 2px;
-    right: 50px;
-}
-
-.add_super_boton {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: #00669F;
-    color: #00669F;
-    position: fixed;
-    bottom: 100px;
-    right: 60px;
-}
-
-.add_super_boton_text {
-    color: #FFF;
-    font-weight: normal;
-    font-size: 50px;
-    text-align: center;
-    position: relative;
-    bottom: 42px;
-}
-
-.card-superheroe-fondo-personaje_MM {
-    background-image: url(../assets/img/bg-wonderw.jpg);
-    background-position: center;
-    background-size: 180%;
-    border-radius: 50px 50px 0px 0px;
-    width: 325px;
-    height: 200px;
-    position: relative;
-    z-index: 1;
-}
-
-.card-superheroe-foto-perfil-personaje_MM {
-    background-image: url(../assets/img/wonderw.jpg);
-    background-position: center;
-    background-position-x: -70px;
-    background-position-y: -10px;
-    background-size: 210%;
-    text-align: center;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    position: relative;
-    bottom: 70px;
-    left: 105px;
-    z-index: 3;
-
-}
-
-.card-superheroe-fondo-personaje_S {
-    background-image: url(../assets/img/bg-superman.jpg);
-    background-position: center;
-    background-size: 180%;
-    border-radius: 50px 50px 0px 0px;
-    width: 325px;
-    height: 200px;
-    position: relative;
-    z-index: 1;
-}
-
-.card-superheroe-foto-perfil-personaje_S {
-    background-image: url(../assets/img/superman.jpg);
-    background-position: center;
-    background-position-x: -55px;
-    background-position-y: -15px;
-    background-size: 210%;
-    text-align: center;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    position: relative;
-    bottom: 70px;
-    left: 105px;
-    z-index: 3;
-
 }
