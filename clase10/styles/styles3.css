@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+aside{
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    background: #1CD1B0;
+    z-index: 10;
+}
+.descuento{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 4px 25px;
+    margin: 0px;
+    color: #000000;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    margin-top: 23px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+.img{
+    position: absolute;
+    background-image: url(../assets/logo1.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+h1{
+    margin-left: 115px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+.barra{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    top: 100px;
+    right: 0%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.link{
+    padding: 0px 20px;
+    text-align: right;
+    width: 100%;
+}
+a{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+    text-decoration: transparent;
+    line-height: 33px;
+    padding: 0px 5px;
+}
+section{
+    height: 550px;
+    width: 700px;
+    padding: 20px 70px;
+    margin:0 auto;
+    margin-top: 145px;
+    margin-bottom: 20px;
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49px;
+}
+article{
+    width:48%;
+    height: 350px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+h2{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.linea{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+label{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
+#nombre, #fecha, #desc, #especie{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    font: "Inter";
+    text-indent: 5px;
+    border: none; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#desc{
+    height: 200px;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: "Inter";
+    font-weight: 300;
+}
+#especie{
+    font-size: 15px;
+    color: grey;
+    font-family: "Inter";
+    font-weight: 300;
+}
+#foto{
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 18px;
+ }
+#volar, #super, #laser, #billetera, #heroe, #villano{
+    font-family: "Karla";
+    font-weight: 400;
+    font-style: normal;
+    margin: 5px 5px;
+}
+hr{
+    margin: 15px 0px;
+    border: 1px solid #6995af;
+}
+#boton{
+    width: 300px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 130px;
+    background: #1CD1B0;
+    border: transparent;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    border-radius: 10px;
+}   
+#boton:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    width: 100%;
+    padding: 1px 0px;
+    bottom: 0;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFF9F9;
+}

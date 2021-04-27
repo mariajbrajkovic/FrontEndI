@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.title, .description {
+    text-align: center;
+}
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 72px;   
+    color: #FBFFFD; 
+}
+.description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.columna1, .columna2 {
+    display: block;
+    width: 477px;
+}
+.labelForm {
+    display: block;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+.name {
+    position: absolute;
+    left: 123px;
+}
+.place {
+    position: absolute;
+    width: 343px;
+    height: 63px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+}
+.nya {
+    left: 123px;
+    top: 200px;
+}
+.date {
+    position: absolute;
+    left: 123px;
+    top: 300px;
+}
+.fecha {
+    position: absolute;
+    width: 343px;
+    height: 63px;
+    left: 123px;
+    top: 350px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+}
+.descripcion {
+    position: absolute;
+    left: 123px;
+    top: 450px;
+    height: 200px;
+    font-size: 20px;
+}
+.especieLabel {
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 500px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.especie {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+.imagen {
+    left: 500px;
+    top: 300px;
+    color: white;
+}
+.file {
+    position: absolute;
+    left: 500px;
+    top: 350px;
+}
+aside{
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    background: #1CD1B0;
+    z-index: 10;
+}
+.descuento{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 4px 25px;
+    margin: 0px;
+    color: #000000;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    margin-top: 23px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+.img{
+    position: absolute;
+    background-image: url(../assets/logo1.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+h1{
+    margin-left: 115px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+.barra{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    top: 100px;
+    right: 0%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.link{
+    padding: 0px 20px;
+    text-align: right;
+    width: 100%;
+}
+a{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+    text-decoration: transparent;
+    line-height: 33px;
+    padding: 0px 5px;
+}
+section{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 170px;
+    margin-bottom: 55px;
+}
+article{
+    display: inline-block;
+    margin: 0px 20px 0px;
+}
+.recuadro{
+    position: relative;
+    bottom: 10px;
+    width: 350px;
+    height: 310px;
+    text-align: center;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fas{
+    color: red;
+    font-size: 23px;
+    padding: 15px 15px;
+}
+.banner{
+    width: 350px;
+    height: 180px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.B{
+    background-image: url(../assets/bg-batman.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.H{
+    background-image: url(../assets/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+.J{
+    background-image: url(../assets/360_F_300515872_w8RunEfGXkC7Kl3v6zAqTctWlNvnFTb1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin: -80px 110px;
+    z-index: 5;
+}
+.Batman{
+    background-image: url(../assets/batman.jpg);
+    background-size: cover;
+    background-position: -80px;
+}
+.Harley{
+    background-image: url(../assets/liga-justicia-batman-kO4H--1024x512@abc\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+.Joker{
+    background-image: url(../assets/rs-193707-Screen-Shot-2015-04-25-at-8.00.41-AM.png);
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    padding-top: 70px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+.texto{
+    padding: 20px 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #333333;
+}
+.vermas{
+    width: 128px;
+    height: 45px;
+    margin-top: 5px 0px 0px;
+    border: transparent;    
+    background: #00669F;
+    color: white;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+}
+#boton{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    margin-top: -320px;
+    border-radius: 100%;
+    border: none;
+    background: #00669F;
+    bottom: 45%;
+    right: 1%;
+    z-index: 10;
+}
+#boton:hover{
+    background-color: black;
+}
+.mas{
+    position: relative;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    color: #FFFFFF;
+    bottom: 5px;
+}
+footer{
+    width: 100%;
+    height: 61px;
+    bottom: 0;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFF9F9;
+}
